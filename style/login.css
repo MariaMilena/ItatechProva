@@ -1,0 +1,46 @@
+main {
+    background-color: #E5E5E5; 
+    width: 100%;
+    padding: 10%;
+}
+
+.login-form {
+    width: 40%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form p {
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+}
+
+.btn {
+    width: 100%;
+}
+
+.input-field {
+    border: none;
+}
+
+@media only screen and (max-width: 850px) {
+    .login-form {
+        width: 50%;
+    }
+    .login-form .btn {
+        width: 40%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .login-form {
+        width: 90%;
+    }
+}

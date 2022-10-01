@@ -1,0 +1,44 @@
+main {
+    background-color: #E5E5E5; 
+    width: 100%;
+}
+
+.others-cards {
+    width: 80%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+.only-card {
+    display: flex;
+    margin: 0 auto;
+    justify-content: left;
+    text-align: left;
+    padding-bottom: 5%;
+}
+
+.content h1 {
+    line-height: 50px;
+}
+
+.content .price {
+    line-height: 30px;
+}
+
+.content {
+    margin-left: 3%;
+}
+
+@media only screen and (max-width: 650px) {
+    .only-card {
+        display: block;
+    }
+
+    .only-card img {
+        width: 100%;
+    }
+    .content {
+        margin-left: 0;
+    }
+}
